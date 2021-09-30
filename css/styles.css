@@ -1,6 +1,14 @@
+/* Задает переменные для цвета */
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+}
+
 body {
     /* font-family: 'Raleway', sans-serif; */
     font-family: 'Roboto', sans-serif;
+    color: var(--primary-text-color);
 }
 
 .logo {
@@ -37,6 +45,18 @@ body {
     line-height: 16px;
     letter-spacing: 0.02em;
     color: #757575;
+    text-decoration: none;
+}
+
+.nav-links a:hover,
+.contact-links a:hover {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: 2196F3;
     text-decoration: none;
 }
 
