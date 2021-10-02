@@ -1,38 +1,38 @@
 /* Герой */
 .hero-title {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: var(--primary-white-color);
-    background-color: #2F303A;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+  background-color: #2f303a;
 }
 
 .button {
-    width: 200px;
-    height: 50px;
-    left: 700px;
-    top: 430px;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
 
-    background-color: var(--accent-color);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
+  background-color: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 1.875;
-    text-align: center;
-    letter-spacing: 0.06em;
-    color: var(--primary-white-color);
-} 
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.875;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--primary-white-color);
+}
 
 .list {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 /* .features,
@@ -41,93 +41,92 @@
 } */
 
 .section-title {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 1.16;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: var(--title-text-color);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
 }
 
 /* Преимущества */
 .features-title {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--title-text-color);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--title-text-color);
 }
 
 .features-descr {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 /* Команда */
 .teems {
-    background-color: #f5f4fa;
+  background-color: #f5f4fa;
 }
 
 .teems-list-title {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.19;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: var(--title-text-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
 }
 
-.teems-list-desc{
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 1.19;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: var(--primary-text-color)
+.teems-list-desc {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
 }
- 
+
 /* Футер */
 .footer {
-background-color: #2F303A;
+  background-color: #2f303a;
 }
 
 .logo {
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    color: var(--primary-white-color);
-    text-decoration: none;
-
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--primary-white-color);
+  text-decoration: none;
 }
 .logo-web {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 .adress {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 1.71   ;
-    letter-spacing: 0.03em; 
-    color: var(--primary-white-color) 
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--primary-white-color);
 }
 
 .contact-link {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
