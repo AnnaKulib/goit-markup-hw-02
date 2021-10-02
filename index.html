@@ -11,6 +11,7 @@
       rel="stylesheet"
     />
     <!--Подключение стилей-->
+    <link rel="stylesheet" href="./css/common.css" />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
@@ -19,19 +20,19 @@
       <!-- Навигация -->
       <nav class="nav">
         <a class="logo" href="/"> <span class="logo-web">Web</span>Studio</a>
-        <ul class="nav-links">
+        <ul class="nav-links list">
           <li><a class="link" href="/index.html">Студия</a></li>
           <li><a class="link" href="/portfolio.html">Портфолио</a></li>
           <li><a class="link" href="">Контакты</a></li>
         </ul>
       </nav>
       <!-- Контакты -->
-      <ul class="contact-links">
+      <ul class="contact-links list">
         <li>
-          <a class="contact-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          <a class="contact-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
         </li>
         <li>
-          <a class="contact-link" href="tel:+380961111111">+38 096 111 11 11</a>
+          <a class="contact-link link" href="tel:+380961111111">+38 096 111 11 11</a>
         </li>
       </ul>
     </header>
@@ -46,9 +47,9 @@
         <button class="button" type="button">Заказать услугу</button>
       </section>
       <!-- Преимущества -->
-      <section class="section">
-        <h2 class="section-title">Наши преимущества</h2>
-        <ul class="features-list">
+      <section class="section features">
+        <h2 class="section-title" hidden>Наши преимущества</h2>
+        <ul class="features-list list">
           <li>
             <h3 class="features-title">Внимание к деталям</h3>
             <p class="features-descr">
@@ -80,9 +81,9 @@
         </ul>
       </section>
       <!-- Виды работ -->
-      <section class="section">
+      <section class="section works">
         <h2 class="section-title">Чем мы занимаемся</h2>
-        <ul>
+        <ul class="works-list list">
           <li>
             <a href=""
               ><img
@@ -113,41 +114,42 @@
         </ul>
       </section>
       <!-- Команда -->
-      <section class="section">
+      <section class="section teems">
         <h2 class="section-title">Наша команда</h2>
-        <ul>
+        <ul class="teems-list list">
           <li>
             <img
               src="./images/demyanenko.jpg"
               alt="Игорь Демьяненко"
               width="270"
+              height="260"
             />
-            <h3>Игорь Демьяненко</h3>
-            <p lang="en">Product Designer</p>
+            <h3 class="teems-list-title">Игорь Демьяненко</h3>
+            <p class="teems-list-desc" lang="en">Product Designer</p>
           </li>
           <li>
-            <img src="./images/repina.jpg" alt="Ольга Репина" width="270" />
-            <h3>Ольга Репина</h3>
-            <p lang="en">Frontend Developer</p>
+            <img src="./images/repina.jpg" alt="Ольга Репина" width="270" height="260" />
+            <h3 class="teems-list-title">Ольга Репина</h3>
+            <p class="teems-list-desc" lang="en">Frontend Developer</p>
           </li>
           <li>
-            <img src="./images/tarasov.jpg" alt="Николай Тарасов" width="270" />
-            <h3>Николай Тарасов</h3>
-            <p lang="en">Marketing</p>
+            <img src="./images/tarasov.jpg" alt="Николай Тарасов" width="270" height="260" />
+            <h3 class="teems-list-title">Николай Тарасов</h3>
+            <p class="teems-list-desc" lang="en">Marketing</p>
           </li>
           <li>
-            <img src="./images/yermakov.jpg" alt="Михаил Ермаков" width="270" />
-            <h3>Михаил Ермаков</h3>
-            <p lang="en">UI Designer</p>
+            <img src="./images/yermakov.jpg" alt="Михаил Ермаков" width="270" height="260" />
+            <h3 class="teems-list-title">Михаил Ермаков</h3>
+            <p class="teems-list-desc" lang="en">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
     <!-- Футер -->
     <footer class="footer">
-      <a class="logo" href="/">WebStudio</a>
-      <address>г. Киев, пр-т Леси Украинки, 26</address>
-      <ul>
+      <a class="logo" href="/"> <span class="logo-web">Web</span>Studio</a>
+      <address class="adress">г. Киев, пр-т Леси Украинки, 26</address>
+      <ul class="list">
         <li><a class="contact-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
         <li><a class="contact-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
       </ul>
