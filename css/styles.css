@@ -1,4 +1,57 @@
+/* Задает переменные для цвета */
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--primary-text-color);
+  background-color: var(--primary-white-color);
+}
+
+.logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+  text-decoration: none;
+}
+.logo-web {
+  color: var(--accent-color);
+}
+
+.list {
+  list-style-type: none;
+}
+
+.link {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
+
+.contact-link {
+  color: var(--primary-text-color);
+}
+
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
 /* Герой */
+.section-hero {
+  background-color: #2f303a;
+}
+
 .hero-title {
   font-family: Roboto;
   font-style: normal;
@@ -9,7 +62,6 @@
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--primary-white-color);
-  background-color: #2f303a;
 }
 
 .button {
@@ -99,7 +151,7 @@
   background-color: #2f303a;
 }
 
-.logo {
+.footer-logo {
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
@@ -122,7 +174,7 @@
   color: var(--primary-white-color);
 }
 
-.contact-link {
+.footer-contact-link {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
