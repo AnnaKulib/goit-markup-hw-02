@@ -5,9 +5,9 @@
   --accent-color: #2196f3;
   --primary-white-color: #ffffff;
   --button-background-color: #f5f4fa;
-}
 
-/* $font-size-base: 14px; */
+  --base-font-size: 14px;
+}
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -42,7 +42,7 @@ body {
 .link {
   text-decoration: none;
   font-weight: 500;
-  font-size: 14px;
+  font-size: var(--base-font-size);
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--title-text-color);
@@ -118,14 +118,14 @@ body {
 /* Преимущества */
 .features-title {
   font-weight: 700;
-  font-size: 14px;
+  font-size: var(--base-font-size);
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--title-text-color);
 }
 
 .features-descr {
-  font-size: 14px;
+  font-size: var(--base-font-size);
   line-height: 1.71;
 }
 
@@ -162,7 +162,7 @@ body {
 .adress-link {
   text-decoration: none;
   font-style: normal;
-  font-size: 14px;
+  font-size: var(--base-font-size);
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--primary-white-color);
@@ -170,7 +170,7 @@ body {
 
 .footer-contact-link {
   text-decoration: none;
-  font-size: 14px;
+  font-size: var(--base-font-size);
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
 }
