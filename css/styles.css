@@ -48,6 +48,10 @@ body {
   color: var(--title-text-color);
 }
 
+.link.current {
+  color: var(--accent-color);
+}
+
 .contact-link {
   color: var(--primary-text-color);
 }
